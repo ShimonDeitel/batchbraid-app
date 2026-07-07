@@ -1,0 +1,42 @@
+{
+  "identifier": "batchbraid",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {
+    "_askToBuyEnabled": false
+  },
+  "subscriptionGroups": [
+    {
+      "id": "21500000",
+      "localizations": [],
+      "name": "BatchBraid Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "1.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "batchbraid_pro_monthly",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Calculate cord length needed by braid pattern and target length.",
+              "displayName": "BatchBraid Pro",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "batchbraid_pro_monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "BatchBraid Pro Monthly",
+          "subscriptionGroupID": "21500000",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}
