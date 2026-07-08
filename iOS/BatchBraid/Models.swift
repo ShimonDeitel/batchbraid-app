@@ -8,14 +8,7 @@ struct Braid: Identifiable, Codable, Equatable {
     var finishedSize: String
     var createdDate: Date
 
-    init(
-        id: UUID = UUID(),
-        projectName: String = "Keychain Fob",
-        cordLength: String = "6",
-        pattern: String = "Cobra",
-        finishedSize: String = "4",
-        createdDate: Date = Date()
-    ) {
+    init(id: UUID = UUID(), projectName: String = "Keychain Fob", cordLength: String = "6", pattern: String = "Cobra", finishedSize: String = "4", createdDate: Date = Date()) {
         self.id = id
         self.projectName = projectName
         self.cordLength = cordLength
@@ -34,14 +27,7 @@ struct BBProEntry: Identifiable, Codable, Equatable {
     var resultLength: String
     var createdDate: Date
 
-    init(
-        id: UUID = UUID(),
-        pattern: String = "Cobra",
-        targetLength: String = "8",
-        strands: String = "2",
-        resultLength: String = "7.5",
-        createdDate: Date = Date()
-    ) {
+    init(id: UUID = UUID(), pattern: String = "Cobra", targetLength: String = "8", strands: String = "2", resultLength: String = "7.5", createdDate: Date = Date()) {
         self.id = id
         self.pattern = pattern
         self.targetLength = targetLength
