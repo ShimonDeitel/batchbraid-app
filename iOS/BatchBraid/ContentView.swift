@@ -174,9 +174,9 @@ struct BraidFormView: View {
     private func save() {
         switch mode {
         case .add:
-            store.addBraid(draftProjectName, draftCordLength, draftPattern, draftFinishedSize, isPro: purchases.isPro)
+            store.addBraid(projectName: draftProjectName, cordLength: draftCordLength, pattern: draftPattern, finishedSize: draftFinishedSize, isPro: purchases.isPro)
         case .edit(let item):
-            store.updateBraid(item.id, draftProjectName, draftCordLength, draftPattern, draftFinishedSize)
+            store.updateBraid(item.id, projectName: draftProjectName, cordLength: draftCordLength, pattern: draftPattern, finishedSize: draftFinishedSize)
         }
         BBHaptics.success()
         dismiss()
